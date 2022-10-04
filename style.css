@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+.parent{
+    height: 555px;
+    background-color: rgb(253, 249, 249); 
+    width: 100%;
+}
+h1{
+    padding: 4% 10% 2% 1%;  
+}
+.free{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 1%;
+    margin-left: 10px;
+}
+.all{
+    background-color: white;
+
+}
+img{
+    width: 100%;
+}
+h3,h6,p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+@media only screen and (max-width: 510px){
+    .parent{
+        padding: 10%;
+    }
+    .free{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5%;
+    }
+    h1{
+        padding-left: 6%;
+    }
+}
